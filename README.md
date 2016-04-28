@@ -52,9 +52,13 @@ Ionic Template with Login, Register &amp; Profile Page
 2. Level 1 - Root Scope - $rootScope.tasks
 
 3. Level 2 - LocalStorage (ngStorage) = `$storage.tasks`
+
 	Install `ngStorage` -	`bower install ngstorage`
+
 	Include `ngStorage.min.js` in `index.html`, before `cordova.js` - `<script src="lib/ngstorage/ngStorage.min.js"></script>`
+
 	Inject `ngStorage` on application level - `'ngStorage'` (required)
+	
 	Inject `$localStorage` / `$sessionStorage` on controller level (optional)
 
 4. Level 3 - SQLite
