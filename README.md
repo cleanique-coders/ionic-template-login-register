@@ -18,3 +18,23 @@ Ionic Template with Login, Register &amp; Profile Page
 2. Dependency Injection
 	- Application level: `js/app.js`
 	- Controller level: `js/controllers.js`
+
+# How to create a page
+
+1. Add a new file under `templates/` folder, eg. `dashboard.html`
+
+2. Copy content in `templates/_template.html` and paste it in `dashboard.html`
+
+3. Set Route
+
+	``.state('dashboard', {
+	    url: '/dashboard',
+	    templateUrl: 'templates/dashboard.html',
+	    controller: 'dashboardCtrl'
+  	})``
+
+4. Add Controller
+
+	``.controller('settingsCtrl', function($scope) {
+		// do your things here
+	})``
