@@ -7,10 +7,8 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
 
-      .state('profile', {
+  .state('profile', {
     url: '/profile',
     templateUrl: 'templates/profile.html',
     controller: 'profileCtrl'
@@ -28,7 +26,19 @@ angular.module('app.routes', [])
     controller: 'registerCtrl'
   })
 
-$urlRouterProvider.otherwise('/login')
+  .state('settings', {
+    url: '/settings',
+    templateUrl: 'templates/settings.html',
+    controller: 'settingsCtrl'
+  })
+
+  .state('splash', {
+    url: '/splash',
+    templateUrl: 'templates/splash.html',
+    controller: 'splashCtrl'
+  })
+
+$urlRouterProvider.otherwise('/splash')
 
   
 
