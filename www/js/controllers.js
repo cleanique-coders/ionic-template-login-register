@@ -6,6 +6,10 @@ angular.module('app.controllers', [])
    
 .controller('loginCtrl', function($scope) {
 
+	ionic.Platform.ready(function(){
+
+  	});
+	
 })
    
 .controller('registerCtrl', function($scope) {
