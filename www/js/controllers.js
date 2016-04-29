@@ -27,4 +27,8 @@ angular.module('app.controllers', [])
 		$state.go('login');
 	}, 2000);
 })
+
+.controller('tilesCtrl', function($scope) {
+
+})
  

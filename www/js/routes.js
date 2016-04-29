@@ -38,7 +38,13 @@ angular.module('app.routes', [])
     controller: 'splashCtrl'
   })
 
-$urlRouterProvider.otherwise('/splash')
+  .state('tiles', {
+    url: '/tiles',
+    templateUrl: 'templates/tiles.html',
+    controller: 'tilesCtrl'
+  })
+
+$urlRouterProvider.otherwise('/tiles')
 
   
 
