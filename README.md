@@ -1,5 +1,95 @@
-# ionic-template-login-register
+# Ionic Template - Login, Register &amp; Profile Page
 Ionic Template with Login, Register &amp; Profile Page
+
+# Syllabus
+
+## Resources
+
+1. [Ionic CSS Components](http://ionicframework.com/docs/components/)
+2. [Ionic JavaScript UI Library](http://ionicframework.com/docs/api)
+3. [Ionicons](http://ionicframework.com/docs/components/#icons)
+4. [Dynamic Templates](http://ionicframework.com/docs/platform-customization/dynamic-templates.html)
+5. [Ionic Books](http://ionicframework.com/docs/guide/)
+
+### Day 1
+
+1. Ionic Installation & Configuration
+	
+2. Ionic Creator
+		Develop UI
+		Export
+3. Ionic Structure
+		hooks - scripts used to customize cordova commands
+		plugins - ngCordova plugins
+		platforms - target devices (ios,android,bb,windows)
+		resources - splashscreens, icons
+		scss - you may include other scss if required
+		www - working directory
+			img - al our images
+			js
+				app.js - main js file, application's JavaScript
+				controllers.js - handle request in & out
+				directives.js - manipulate DOM / elements / attributes
+				routes.js - define signboard / signage: route name, url, template, controller
+				services.js - define external services want to use, can be service / factory.
+			lib - external libraries such as ngCordova, Swiper, etc. Installation via bower
+			templates - our views
+4.	Ionic Command Line Interface (CLI)
+		ionic start
+		ionic serve
+5.	Simple To Do App
+		Create, Read, Update and Delete
+6.	AngularJs Attributes
+		ng-model
+		ng-repeat
+		ng-app
+		ng-click
+7.	AngularJs Methods
+		{{ }} // echo
+		$scope
+		$rootScope
+8.	ngCordova
+		ngStorage
+9.	Ionic Elements & Attributes
+		ui-sref
+		ion-view
+		ion-content
+10. Ionic classes
+		button 
+		button-positive
+		item 
+		item-input
+
+### Day 2
+
+1. ngCordova
+	App Version [MISSION FAILED]
+	Globalization [MISSION FAILED]
+	Dialogs [OK]
+	Preferences [MISSION FAILED]
+	Splash Screen [MISSION FAILED]
+	Local Notifications [NOT YET]
+	OAuth [NOT YET]
+	GeoLocation [NOT YET]
+	Push Notifications [NOT YET]
+
+2. [MISSION FAILED]
+	Lack of knowledge
+	Inproper documentations / references
+	Need to compile to native application and run on emulator or device
+
+### Day 3
+
+1. User Interface / User Experience (UI / UX)
+
+2. Application Programming Interface (API)
+	CORS
+	JSON
+	JWT
+	Frameworks
+
+3. Using Ionic Framework + Intel XDK
+
 
 # Basic Steps of ngCordova Plugin Installation
 	
