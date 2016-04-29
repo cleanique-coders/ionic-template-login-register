@@ -183,3 +183,48 @@ Ionic Template with Login, Register &amp; Profile Page
 5. More URL Format [URLMatcher](http://angular-ui.github.io/ui-router/site/#/api/ui.router.util.type:UrlMatcher)
 
 6. More tips - [Scotch - 3 Simple Tips for Using UI Route](https://scotch.io/tutorials/3-simple-tips-for-using-ui-router)
+
+# API in Ionic
+	
+1. [Handling CORS](http://www.geekality.net/2010/06/27/php-how-to-easily-provide-json-and-jsonp/)
+
+2. [Setting Up The Proxy Server](http://blog.ionic.io/handling-cors-issues-in-ionic/)
+
+3. Configure API End Point
+
+	```
+	.constant('ApiEndpoint', {
+	  url: 'http://ion-api.dev/api/v1'
+	})
+	```
+
+4. Configure proxy in `ion.project`
+
+	```
+	{
+	  "name": "ionic-template-login-register",
+	  "app_id": "32febb4d",
+	  "proxies": [
+	    {
+	      "path": "/api",
+	      "proxyUrl": "http://ion-api.dev"
+	    }
+	  ]
+	}
+	```
+
+5. Use the APIEndPoint in controller
+
+	```
+	.controller('registerCtrl', function($scope, ApiEndpoint) {
+		$http.get(ApiEndpoint.url, data)
+		    .success(function(data){
+		      console.log(data);
+		      console.log(typeof data);
+		    })
+		    .error(function(data){
+		      console.log(data);
+		      console.log('error');
+		    });
+	})
+	```

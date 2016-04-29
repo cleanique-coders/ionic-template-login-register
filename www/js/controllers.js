@@ -6,11 +6,26 @@ angular.module('app.controllers', [])
   	};
 })
    
-.controller('loginCtrl', function($scope) {
+.controller('loginCtrl', function($scope, $rootScope, $state, AuthService) {
 
 	ionic.Platform.ready(function(){
 
   	});
+
+  	$scope.login = function() {
+  		
+  		console.info('Authentication...');
+  		AuthService.login($scope.email,$scope.password);
+  		
+  		setTimeout(function() {
+			if($scope.token) {
+				console.info('Successfully logged in...');
+				$state.go('profile');
+			}
+		}, 2000);
+
+  		
+  	}
 	
 })
    

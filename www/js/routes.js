@@ -44,7 +44,7 @@ angular.module('app.routes', [])
     controller: 'tilesCtrl'
   })
 
-$urlRouterProvider.otherwise('/tiles')
+$urlRouterProvider.otherwise('/login')
 
   
 
