@@ -26,7 +26,7 @@ Ionic Template with Login, Register &amp; Profile Page
 	- resources - splashscreens, icons
 	- scss - you may include other scss if required
 	- www - working directory
-		- img - al our images
+		- img - all our images
 		- js
 			- app.js - main js file, application's JavaScript
 			- controllers.js - handle request in & out
@@ -42,6 +42,7 @@ Ionic Template with Login, Register &amp; Profile Page
 
 5.	Simple To Do App
 	- Create, Read, Update and Delete
+	- ngStorage, which use localStorage
 
 6.	AngularJs Attributes
 	- ng-model
@@ -51,18 +52,20 @@ Ionic Template with Login, Register &amp; Profile Page
 
 7.	AngularJs Methods
 	- {{ }} // echo
-	- $scope
-	- $rootScope
 
-8.	ngCordova
+8.	AngularJs Scope
+	- Local Scope: $scope
+	- Global Scope: $rootScope
+
+9.	ngCordova
 	- ngStorage
 
-9.	Ionic Elements & Attributes
-	- ui-sref
-	- ion-view
-	- ion-content
+10.	Ionic Elements & Attributes
+	- ui-sref=""
+	- <ion-view></ion-view>
+	- <ion-content></ion-content>
 
-10. Ionic classes
+11. Ionic Classes
 	- button 
 	- button-positive
 	- item 
@@ -84,7 +87,7 @@ Ionic Template with Login, Register &amp; Profile Page
 2. [MISSION FAILED]
 	- Lack of knowledge
 	- Inproper documentations / references
-	- Need to compile to native application and run on emulator or device
+	- Need to compile to application to native application and run on emulator or device
 
 ### Day 3
 
@@ -101,6 +104,10 @@ Ionic Template with Login, Register &amp; Profile Page
 		- Silex
 
 3. Using Ionic Framework + Intel XDK
+	- Build
+	- Test
+		- Emulator
+		- Device
 
 
 # Basic Steps of ngCordova Plugin Installation
