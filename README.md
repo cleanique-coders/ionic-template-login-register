@@ -62,8 +62,8 @@ Ionic Template with Login, Register &amp; Profile Page
 
 10.	Ionic Elements & Attributes
 	- ui-sref=""
-	- <ion-view></ion-view>
-	- <ion-content></ion-content>
+	- ion-view
+	- ion-content
 
 11. Ionic Classes
 	- button 
@@ -228,3 +228,18 @@ Ionic Template with Login, Register &amp; Profile Page
 		    });
 	})
 	```
+
+# More Reading...
+
+1. UI / UX
+	- UI Tiles
+	- Masonry
+	- Swiper
+		- https://github.com/driftyco/ionic-ion-tinder-cards
+		- https://github.com/driftyco/ionic-ion-swipe-cards
+	- LightSlider + LightGallery
+
+2. API
+	- [Postmane](http://getpostman.com)
+	- [JSON Web Token](https://jwt.io/)
+	- [Laravel Sample API](https://github.com/zulfajuniadi/sampleapi)
