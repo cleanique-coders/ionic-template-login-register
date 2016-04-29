@@ -16,77 +16,89 @@ Ionic Template with Login, Register &amp; Profile Page
 1. Ionic Installation & Configuration
 	
 2. Ionic Creator
-		Develop UI
-		Export
+	- Develop UI
+	- Export
+
 3. Ionic Structure
-		hooks - scripts used to customize cordova commands
-		plugins - ngCordova plugins
-		platforms - target devices (ios,android,bb,windows)
-		resources - splashscreens, icons
-		scss - you may include other scss if required
-		www - working directory
-			img - al our images
-			js
-				app.js - main js file, application's JavaScript
-				controllers.js - handle request in & out
-				directives.js - manipulate DOM / elements / attributes
-				routes.js - define signboard / signage: route name, url, template, controller
-				services.js - define external services want to use, can be service / factory.
-			lib - external libraries such as ngCordova, Swiper, etc. Installation via bower
-			templates - our views
+	- hooks - scripts used to customize cordova commands
+	- plugins - ngCordova plugins
+	- platforms - target devices (ios,android,bb,windows)
+	- resources - splashscreens, icons
+	- scss - you may include other scss if required
+	- www - working directory
+		- img - al our images
+		- js
+			- app.js - main js file, application's JavaScript
+			- controllers.js - handle request in & out
+			- directives.js - manipulate DOM / elements / attributes
+			- routes.js - define signboard / signage: route name, url, template, controller
+			- services.js - define external services want to use, can be service / factory.
+		- lib - external libraries such as ngCordova, Swiper, etc. Installation via bower
+		- templates - our views
+
 4.	Ionic Command Line Interface (CLI)
-		ionic start
-		ionic serve
+	- ionic start
+	- ionic serve
+
 5.	Simple To Do App
-		Create, Read, Update and Delete
+	- Create, Read, Update and Delete
+
 6.	AngularJs Attributes
-		ng-model
-		ng-repeat
-		ng-app
-		ng-click
+	- ng-model
+	- ng-repeat
+	- ng-app
+	- ng-click
+
 7.	AngularJs Methods
-		{{ }} // echo
-		$scope
-		$rootScope
+	- {{ }} // echo
+	- $scope
+	- $rootScope
+
 8.	ngCordova
-		ngStorage
+	- ngStorage
+
 9.	Ionic Elements & Attributes
-		ui-sref
-		ion-view
-		ion-content
+	- ui-sref
+	- ion-view
+	- ion-content
+
 10. Ionic classes
-		button 
-		button-positive
-		item 
-		item-input
+	- button 
+	- button-positive
+	- item 
+	- item-input
 
 ### Day 2
 
 1. ngCordova
-	App Version [MISSION FAILED]
-	Globalization [MISSION FAILED]
-	Dialogs [OK]
-	Preferences [MISSION FAILED]
-	Splash Screen [MISSION FAILED]
-	Local Notifications [NOT YET]
-	OAuth [NOT YET]
-	GeoLocation [NOT YET]
-	Push Notifications [NOT YET]
+	- App Version [MISSION FAILED]
+	- Globalization [MISSION FAILED]
+	- Dialogs [OK]
+	- Preferences [MISSION FAILED]
+	- Splash Screen [MISSION FAILED]
+	- Local Notifications [NOT YET]
+	- OAuth [NOT YET]
+	- GeoLocation [NOT YET]
+	- Push Notifications [NOT YET]
 
 2. [MISSION FAILED]
-	Lack of knowledge
-	Inproper documentations / references
-	Need to compile to native application and run on emulator or device
+	- Lack of knowledge
+	- Inproper documentations / references
+	- Need to compile to native application and run on emulator or device
 
 ### Day 3
 
 1. User Interface / User Experience (UI / UX)
 
 2. Application Programming Interface (API)
-	CORS
-	JSON
-	JWT
-	Frameworks
+	- CORS
+	- JSON
+	- JWT
+	- Frameworks
+		- Laravel
+		- Lumen
+		- Slim Framework
+		- Silex
 
 3. Using Ionic Framework + Intel XDK
 
@@ -142,14 +154,10 @@ Ionic Template with Login, Register &amp; Profile Page
 2. Level 1 - Root Scope - $rootScope.tasks
 
 3. Level 2 - LocalStorage (ngStorage) = `$storage.tasks`
-
-	Install `ngStorage` -	`bower install ngstorage`
-
-	Include `ngStorage.min.js` in `index.html`, before `cordova.js` - `<script src="lib/ngstorage/ngStorage.min.js"></script>`
-
-	Inject `ngStorage` on application level - `'ngStorage'` (required)
-	
-	Inject `$localStorage` / `$sessionStorage` on controller level (optional)
+	- Install `ngStorage` -	`bower install ngstorage`
+	- Include `ngStorage.min.js` in `index.html`, before `cordova.js` - `<script src="lib/ngstorage/ngStorage.min.js"></script>`
+	- Inject `ngStorage` on application level - `'ngStorage'` (required)
+	- Inject `$localStorage` / `$sessionStorage` on controller level (optional)
 
 4. Level 3 - SQLite
 
